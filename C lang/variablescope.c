@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-
+//Local variable scope: effect on foo because we are overwriting foo
 int triple(int n);
-//Local variable scope: effect on foo because we are overwrtiing foo
 int main(void)
 {
     int foo = 4;
