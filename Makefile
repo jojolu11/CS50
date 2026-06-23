@@ -38,8 +38,8 @@ run-maio: maio
 run-contracts: contracts
 	./contracts
 
-run-count: count
-	./count
-
 clean:
-	rm -f hello compare gud/meow maio cal contracts count
+	rm -f hello compare gud/meow maio cal contracts
+
+variable: C\ lang/variablescope.c
+	clang C\ lang/variablescope.c -o variable
